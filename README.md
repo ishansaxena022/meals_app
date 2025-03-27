@@ -21,3 +21,8 @@
 ### 6 Making CategoryGridItem clickable
 - Wrapping the `Container()` widget with `InkWell()` widget, to get functionalities like **onTap** , **onDoubleTap** & many more.
 - `GestureDetector()` also provides many action listeners, but it lacks in giving visual feedback.
+
+### 7 Adding meals data 
+- Creating *meals.dart* screen widget to screen folder.
+- Updating *dummy_data.dart* with file attached.
+- Creating *meal.dart* as structure to models. File attached.
