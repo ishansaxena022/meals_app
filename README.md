@@ -13,3 +13,7 @@
 - Adding dummy data model as dummy_data.dart 
 - Moving all screen widgets like categories.dart to `screens` folder.
 - Creating a widget `CategoryGridItem()` to `widgets` folder.
+
+### 5 Displayig category items
+- In `CategoryGridItem()`, aim is to return an item that shows, title & its color.
+- Calling for **CategoryGridItem** in categories.dart, to populate the list with widget.
