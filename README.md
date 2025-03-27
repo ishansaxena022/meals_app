@@ -26,3 +26,7 @@
 - Creating *meals.dart* screen widget to screen folder.
 - Updating *dummy_data.dart* with file attached.
 - Creating *meal.dart* as structure to models. File attached.
+
+### 8 Displaying the meals data
+- Initially printing the meal title from dummyMeals list in `dummy_data.dart`.
+- Using ListView to show the list of meals initially.
