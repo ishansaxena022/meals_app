@@ -17,3 +17,7 @@
 ### 5 Displayig category items
 - In `CategoryGridItem()`, aim is to return an item that shows, title & its color.
 - Calling for **CategoryGridItem** in categories.dart, to populate the list with widget.
+
+### 6 Making CategoryGridItem clickable
+- Wrapping the `Container()` widget with `InkWell()` widget, to get functionalities like **onTap** , **onDoubleTap** & many more.
+- `GestureDetector()` also provides many action listeners, but it lacks in giving visual feedback.
