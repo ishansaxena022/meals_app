@@ -7,3 +7,9 @@
 ### 3 Using GridView() to display items in a grid
 - First, creating a `CategoriesScreen()` widget. Now setting up the layout in grid.
 - Using `GridView()` to display elements in grid.
+
+### 4 Widgets vs Screens
+- Creating a class for `Category` element, with parameters id, title, & color.
+- Adding dummy data model as dummy_data.dart 
+- Moving all screen widgets like categories.dart to `screens` folder.
+- Creating a widget `CategoryGridItem()` to `widgets` folder.
