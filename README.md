@@ -34,3 +34,8 @@
 ### 9 Navigating to different screen
 - On selecting the category, the meal screen should be open.
 - So, by using the Navigator.push(), we pass the screen that would open upon tapping the category item.
+
+### 10 Passing data to target screen
+- Basically upon seletecting the category, the meals that come under the category is listed.
+- Populating the filtered list as ```dummyMeals.where((meal)=> meal.categories.contains(category.id)).toList();```
+- Here upon selecting the category, that particular category object is accepted to func. `_selectedCategory()`, then it is checked whether the category type is presented in the meal, if present, that meal is kept in the `filteredMeals` .  
