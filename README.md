@@ -30,3 +30,7 @@
 ### 8 Displaying the meals data
 - Initially printing the meal title from dummyMeals list in `dummy_data.dart`.
 - Using ListView to show the list of meals initially.
+
+### 9 Navigating to different screen
+- On selecting the category, the meal screen should be open.
+- So, by using the Navigator.push(), we pass the screen that would open upon tapping the category item.
