@@ -38,4 +38,8 @@
 ### 10 Passing data to target screen
 - Basically upon seletecting the category, the meals that come under the category is listed.
 - Populating the filtered list as ```dummyMeals.where((meal)=> meal.categories.contains(category.id)).toList();```
-- Here upon selecting the category, that particular category object is accepted to func. `_selectedCategory()`, then it is checked whether the category type is presented in the meal, if present, that meal is kept in the `filteredMeals` .  
+- Here upon selecting the category, that particular category object is accepted to func. `_selectedCategory()`, then it is checked whether the category type is presented in the meal, if present, that meal is kept in the `filteredMeals` . 
+
+### 11 Introduction Stack Widget
+- The **Stack()** widget is used just like the **Column()** widget, where in this , the widgets listed generally overalap each other. The first widget added to it is the base widget.
+- Using the FadeInImage() widget, to fade in easily between a transparent image(MemoryImage()) & the image fetched from the internet(NetworkImage()).
