@@ -43,3 +43,8 @@
 ### 11 Introduction Stack Widget
 - The **Stack()** widget is used just like the **Column()** widget, where in this , the widgets listed generally overalap each other. The first widget added to it is the base widget.
 - Using the FadeInImage() widget, to fade in easily between a transparent image(MemoryImage()) & the image fetched from the internet(NetworkImage()).
+
+### 12 Improving MealItem widget
+- Adding meta data like affordability, complexity and duration.
+- Creating another widget as `MealItemTrait()` to pass icon and label for it. 
+- 3 `MealItemTrait()` widgets are used to show to duration, complexity and affordability of the meal item, rather than hardcoding each widget.
