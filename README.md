@@ -48,3 +48,8 @@
 - Adding meta data like affordability, complexity and duration.
 - Creating another widget as `MealItemTrait()` to pass icon and label for it. 
 - 3 `MealItemTrait()` widgets are used to show to duration, complexity and affordability of the meal item, rather than hardcoding each widget.
+
+### 13 Adding navigation to MealDetailsScreen
+- Adding a new screen as `MealDetailsScreen()` widget.
+- creating a func as _selectMeal() that would accept, context & meal, and pass the MealDetailsScreen to Naivator.push().
+- Passing this functiont to each MealItem.
