@@ -53,3 +53,7 @@
 - Adding a new screen as `MealDetailsScreen()` widget.
 - creating a func as _selectMeal() that would accept, context & meal, and pass the MealDetailsScreen to Naivator.push().
 - Passing this functiont to each MealItem.
+
+### 14 Improving the MealDetailScreen()
+- Displaying the Ingredients, and its steps too.
+- Use of `SingleChildScrollView` over `ListView` , since the former allows to aligned the content to center, while the other pushes content to left of the screen.
