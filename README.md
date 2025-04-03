@@ -57,3 +57,8 @@
 ### 14 Improving the MealDetailScreen()
 - Displaying the Ingredients, and its steps too.
 - Use of `SingleChildScrollView` over `ListView` , since the former allows to aligned the content to center, while the other pushes content to left of the screen.
+
+### 15 Adding Tab based navigation 
+- Creating a new screen as `TabScreen()` widget in tab.dart The widget is StatefullWidget since, updation of the hinglighted icon and screen change is to be updated. 
+- Two `BottomNavigationBarItem` items added (categories screen & favourites)
+- `_selectPage(int index)` Function to change the active screen is used, in setState() function. 
