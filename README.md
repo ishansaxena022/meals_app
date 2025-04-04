@@ -62,3 +62,8 @@
 - Creating a new screen as `TabScreen()` widget in tab.dart The widget is StatefullWidget since, updation of the hinglighted icon and screen change is to be updated. 
 - Two `BottomNavigationBarItem` items added (categories screen & favourites)
 - `_selectPage(int index)` Function to change the active screen is used, in setState() function. 
+
+### 16 Passing function through multiple levels of widgets 
+- Aim was to pass the **_toggleMealFavouriteStatus()** func. from `TabScreen()` widget to `MealDetailScreen()` widget but they aren't connected directly.
+- So, passing the function through `CategoriesScreen()` widget & `MealScreen()` widget.
+- Follow the code for more.
