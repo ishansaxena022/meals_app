@@ -67,3 +67,7 @@
 - Aim was to pass the **_toggleMealFavouriteStatus()** func. from `TabScreen()` widget to `MealDetailScreen()` widget but they aren't connected directly.
 - So, passing the function through `CategoriesScreen()` widget & `MealScreen()` widget.
 - Follow the code for more.
+
+### 17 Managing app wide state & data
+- Passing the _favouriteMeals[] list to `MealScreen()` widget so that it could be used to display the favourite meals in the other tab.
+- Also adding a **_showInfoMessgae()** function to display message upon tapping the IconButton on `MealDetailScreen()` to mark and un-mark any meal as favourite.
