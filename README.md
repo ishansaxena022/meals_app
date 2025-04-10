@@ -80,3 +80,10 @@
 - creating a func. as **_setScreen()** in `TabScreen()` and defining it to get 'meal' or 'filter' as parameter, to open the screen accordingly.
 - Passing the values through a **onSelectScreen()** func. in `MainDrawer()` widget.
 - Now, while the drawer is open, selecting the meals , eventually mean opening the `TabScreen()` , so using the *Navigator.of(context).pop()* func to pop out the current active widget i.e here the `MainDrawer()`
+
+### 20 Adding a filter item
+- First creating a new widget as `FilterScreen()` widget in screens as filter.dart.
+- Then creating it as **StatefullWidget**. 
+- Then adding the `SwitchListTile()` widget by flutter, to add items and switch all in a row togther.
+- Its parameter *label* accepts bool value, *onChanged* accepts a func, *title* to add a text, *subtitle* to add a sub text, *activeColor* accepts color which tells that if the switch is active or not & *contentPadding* for spacing.
+- a default value false is stored in _glutenFreeMeal, & then passed on to its SwitchListTile item so that initially it shows inactive.

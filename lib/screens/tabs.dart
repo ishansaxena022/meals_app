@@ -48,7 +48,7 @@ class _TabScreenState extends State<TabScreen>{
       Navigator.of(context).pop();
     }
     else{
-
+      Navigator.of(context);
     }
   }
   @override
