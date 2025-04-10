@@ -71,3 +71,7 @@
 ### 17 Managing app wide state & data
 - Passing the _favouriteMeals[] list to `MealScreen()` widget so that it could be used to display the favourite meals in the other tab.
 - Also adding a **_showInfoMessgae()** function to display message upon tapping the IconButton on `MealDetailScreen()` to mark and un-mark any meal as favourite.
+
+### 18 Adding a side drawer
+- to add more functionalities for the app.
+- Like adding a Meal option to directly open the `MealScreen()` or adding a filter option to filter out meals.
