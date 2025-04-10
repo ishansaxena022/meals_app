@@ -75,3 +75,8 @@
 ### 18 Adding a side drawer
 - to add more functionalities for the app.
 - Like adding a Meal option to directly open the `MealScreen()` or adding a filter option to filter out meals.
+
+### 19 Closing the side drawer manually
+- creating a func. as **_setScreen()** in `TabScreen()` and defining it to get 'meal' or 'filter' as parameter, to open the screen accordingly.
+- Passing the values through a **onSelectScreen()** func. in `MainDrawer()` widget.
+- Now, while the drawer is open, selecting the meals , eventually mean opening the `TabScreen()` , so using the *Navigator.of(context).pop()* func to pop out the current active widget i.e here the `MainDrawer()`
