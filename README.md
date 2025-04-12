@@ -87,3 +87,10 @@
 - Then adding the `SwitchListTile()` widget by flutter, to add items and switch all in a row togther.
 - Its parameter *label* accepts bool value, *onChanged* accepts a func, *title* to add a text, *subtitle* to add a sub text, *activeColor* accepts color which tells that if the switch is active or not & *contentPadding* for spacing.
 - a default value false is stored in _glutenFreeMeal, & then passed on to its SwitchListTile item so that initially it shows inactive.
+
+### 21 Replacing the screen instead of pushing
+- Adding `MainDrawer()` to the `FilterScreen()` page.
+- When navigating through the screens using the navigation button, the stack of screen could be all accessed by it.
+- Eg. if `FilterScreen()` is open & `TabScreen()` is accessed through the drawer, then by tapping back button , filter screen could be accessed back.
+- It could be prevented by using the *pushReplacement()* instead of *push()*.
+- Now, it is all users choice to add this feature or not.

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meals_app/screens/categories.dart';
+import 'package:meals_app/screens/filter.dart';
 import 'package:meals_app/screens/meals.dart';
 import 'package:meals_app/models/meal.dart';
 import 'package:meals_app/widgets/main_drawer.dart';
@@ -44,11 +45,11 @@ class _TabScreenState extends State<TabScreen>{
   }
 
   void _setScreen(String identifier){
-    if(identifier == 'meals'){
-      Navigator.of(context).pop();
-    }
-    else{
-      Navigator.of(context);
+    Navigator.of(context).pop();
+    if(identifier == 'filters'){
+      Navigator.of(context).push(MaterialPageRoute(
+        builder : (ctx) => const FilterScreen(),)
+      );
     }
   }
   @override
