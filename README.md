@@ -94,3 +94,6 @@
 - Eg. if `FilterScreen()` is open & `TabScreen()` is accessed through the drawer, then by tapping back button , filter screen could be accessed back.
 - It could be prevented by using the *pushReplacement()* instead of *push()*.
 - Now, it is all users choice to add this feature or not.
+
+### 22 Adding more filters
+- filter like lactose free, vegan and vegetarian.
