@@ -97,3 +97,8 @@
 
 ### 22 Adding more filters
 - filter like lactose free, vegan and vegetarian.
+
+### 23 24 Returning data when leaving 
+- Using `PopScope()` widget over the deprecated `onWillPop()` widget.
+- This widget returns the data that is being selected (here the filters that have been selected) to .
+- *onPopInvokedWithResult* gives you access to the result being passed during the pop operation, so you can handle it more cleanly and in a type-safe way. 
