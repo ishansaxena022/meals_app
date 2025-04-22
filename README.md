@@ -102,3 +102,7 @@
 - Using `PopScope()` widget over the deprecated `onWillPop()` widget.
 - This widget returns the data that is being selected (here the filters that have been selected) to .
 - *onPopInvokedWithResult* gives you access to the result being passed during the pop operation, so you can handle it more cleanly and in a type-safe way. 
+
+### 25 Reading & using returned data
+- By making use of the *push()* func. in the `TabScreen()` widget while opening the `FilterScreen()` widget, the *push()* func. waits for the value to be returned from the `FilterScreen()` when back button is tapped.
+- And store the result that is in map type for further use.
